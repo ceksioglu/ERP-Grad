@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1340" viewBox="0 0 1460 1340">
+<rect x="0" y="0" width="1460" height="1340" fill="#ffffff"/>
+<text x="730.0" y="44.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="26" fill="#16263a" text-anchor="middle">Furniture ERP | Plan to Manufacture (logical model)</text>
+<rect x="42" y="250" width="232" height="694" rx="6" fill="#e9f0f8" stroke="#e9f0f8"/>
+<text x="158.0" y="269.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#2f5d8a" text-anchor="middle">Planning</text>
+<rect x="42" y="70" width="191" height="154" rx="6" fill="#f0ecfa" stroke="#f0ecfa"/>
+<text x="137.5" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#5b4b95" text-anchor="middle">Order to cash (O2C)</text>
+<rect x="462" y="70" width="243" height="854" rx="6" fill="#fbeeec" stroke="#fbeeec"/>
+<text x="583.5" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8b3a2e" text-anchor="middle">Production</text>
+<rect x="882" y="70" width="502" height="704" rx="6" fill="#fbf3e4" stroke="#fbf3e4"/>
+<text x="1133.0" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8a5a12" text-anchor="middle">Engineering</text>
+<rect x="42" y="1020" width="481" height="154" rx="6" fill="#fbeeec" stroke="#fbeeec"/>
+<text x="282.5" y="1039.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8b3a2e" text-anchor="middle">Production output</text>
+<rect x="542" y="1020" width="584" height="174" rx="6" fill="#e7f6f0" stroke="#e7f6f0"/>
+<text x="834.0" y="1039.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#1c6b5c" text-anchor="middle">Shared inventory ledger</text>
+<path d="M215.0,158.0 L320.0,158.0 L320.0,487.4 L256.0,487.4" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="222.0" y1="152.0" x2="222.0" y2="164.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="232.0" cy="158.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<line x1="269.0" y1="487.4" x2="256.0" y2="480.4" stroke="#16263a" stroke-width="1.4"/>
+<line x1="269.0" y1="487.4" x2="256.0" y2="487.4" stroke="#16263a" stroke-width="1.4"/>
+<line x1="269.0" y1="487.4" x2="256.0" y2="494.4" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="277.0" cy="487.4" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="326.0" y="326.7" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">is fulfilled by</text>
+<path d="M149.5,386.0 L149.5,428.0 L158.0,428.0 L158.0,470.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="155.5" y1="393.0" x2="143.5" y2="393.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="155.5" y1="398.0" x2="143.5" y2="398.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="158.0" y1="457.0" x2="151.0" y2="470.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="158.0" y1="457.0" x2="158.0" y2="470.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="158.0" y1="457.0" x2="165.0" y2="470.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="152.0" y1="453.0" x2="164.0" y2="453.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="155.5" y="411.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">contains</text>
+<path d="M60.0,338.0 L36.0,338.0 L36.0,888.0 L60.0,888.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="53.0" y1="344.0" x2="53.0" y2="332.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="48.0" y1="344.0" x2="48.0" y2="332.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="47.0" y1="888.0" x2="60.0" y2="895.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="47.0" y1="888.0" x2="60.0" y2="888.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="47.0" y1="888.0" x2="60.0" y2="881.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="39.0" cy="888.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="42.0" y="617.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">captures</text>
+<path d="M158.0,586.0 L158.0,638.0 L142.5,638.0 L142.5,690.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="164.0" y1="593.0" x2="152.0" y2="593.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="164.0" y1="598.0" x2="152.0" y2="598.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="142.5" y1="677.0" x2="135.5" y2="690.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="142.5" y1="677.0" x2="142.5" y2="690.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="142.5" y1="677.0" x2="149.5" y2="690.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="142.5" cy="669.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="164.0" y="616.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">explodes into</text>
+<path d="M256.0,516.4 L452.0,516.4 L452.0,420.8 L480.0,420.8" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="263.0" y1="510.4" x2="263.0" y2="522.4" stroke="#16263a" stroke-width="1.4"/>
+<line x1="268.0" y1="510.4" x2="268.0" y2="522.4" stroke="#16263a" stroke-width="1.4"/>
+<line x1="467.0" y1="420.8" x2="480.0" y2="427.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="467.0" y1="420.8" x2="480.0" y2="420.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="467.0" y1="420.8" x2="480.0" y2="413.8" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="459.0" cy="420.8" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="354.0" y="511.4" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">is executed by</text>
+<path d="M962.5,300.0 L962.5,253.0 L981.0,253.0 L981.0,206.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="956.5" y1="293.0" x2="968.5" y2="293.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="956.5" y1="288.0" x2="968.5" y2="288.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="981.0" y1="219.0" x2="988.0" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="981.0" y1="219.0" x2="981.0" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="981.0" y1="219.0" x2="974.0" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="987.0" y1="223.0" x2="975.0" y2="223.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="968.5" y="280.5" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">consists of</text>
+<path d="M1210.0,158.0 L1136.0,158.0 L1062.0,158.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="1203.0" y1="164.0" x2="1203.0" y2="152.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1198.0" y1="164.0" x2="1198.0" y2="152.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1075.0" y1="158.0" x2="1062.0" y2="151.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1075.0" y1="158.0" x2="1062.0" y2="158.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1075.0" y1="158.0" x2="1062.0" y2="165.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="1083.0" cy="158.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="1173.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">performs</text>
+<path d="M979.5,566.0 L979.5,613.0 L986.0,613.0 L986.0,660.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="985.5" y1="573.0" x2="973.5" y2="573.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="985.5" y1="578.0" x2="973.5" y2="578.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="986.0" y1="647.0" x2="979.0" y2="660.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="986.0" y1="647.0" x2="986.0" y2="660.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="986.0" y1="647.0" x2="993.0" y2="660.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="980.0" y1="643.0" x2="992.0" y2="643.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="985.5" y="593.5" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">lists</text>
+<path d="M900.0,158.0 L860.0,158.0 L860.0,167.6 L679.0,167.6" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="893.0" y1="164.0" x2="893.0" y2="152.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="888.0" y1="164.0" x2="888.0" y2="152.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="692.0" y1="167.6" x2="679.0" y2="160.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="692.0" y1="167.6" x2="679.0" y2="167.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="692.0" y1="167.6" x2="679.0" y2="174.6" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="700.0" cy="167.6" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="769.5" y="162.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">scheduled as</text>
+<path d="M900.0,338.0 L870.0,338.0 L870.0,414.0 L687.0,414.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="893.0" y1="344.0" x2="893.0" y2="332.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="888.0" y1="344.0" x2="888.0" y2="332.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="414.0" x2="687.0" y2="407.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="414.0" x2="687.0" y2="414.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="414.0" x2="687.0" y2="421.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="708.0" cy="414.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="778.5" y="409.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">guides</text>
+<path d="M900.0,508.0 L870.0,508.0 L870.0,482.0 L687.0,482.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="893.0" y1="514.0" x2="893.0" y2="502.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="888.0" y1="514.0" x2="888.0" y2="502.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="482.0" x2="687.0" y2="475.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="482.0" x2="687.0" y2="482.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="700.0" y1="482.0" x2="687.0" y2="489.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="708.0" cy="482.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="778.5" y="477.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">specifies</text>
+<path d="M900.0,708.0 L860.0,708.0 L860.0,675.6 L652.0,675.6" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="893.0" y1="714.0" x2="893.0" y2="702.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="888.0" y1="714.0" x2="888.0" y2="702.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="665.0" y1="675.6" x2="652.0" y2="668.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="665.0" y1="675.6" x2="652.0" y2="675.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="665.0" y1="675.6" x2="652.0" y2="682.6" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="673.0" cy="675.6" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="756.0" y="670.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">copied to</text>
+<path d="M583.5,380.0 L583.5,293.0 L579.5,293.0 L579.5,206.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="577.5" y1="373.0" x2="589.5" y2="373.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="577.5" y1="368.0" x2="589.5" y2="368.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="579.5" y1="219.0" x2="586.5" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="579.5" y1="219.0" x2="579.5" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="579.5" y1="219.0" x2="572.5" y2="206.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="579.5" cy="227.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="589.5" y="340.5" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">runs</text>
+<path d="M583.5,516.0 L583.5,573.0 L566.0,573.0 L566.0,630.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="589.5" y1="523.0" x2="577.5" y2="523.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="589.5" y1="528.0" x2="577.5" y2="528.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="566.0" y1="617.0" x2="559.0" y2="630.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="566.0" y1="617.0" x2="566.0" y2="630.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="566.0" y1="617.0" x2="573.0" y2="630.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="566.0" cy="609.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="589.5" y="548.5" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">requires</text>
+<path d="M566.0,706.0 L566.0,758.0 L557.5,758.0 L557.5,810.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="572.0" y1="713.0" x2="560.0" y2="713.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="572.0" y1="718.0" x2="560.0" y2="718.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="557.5" y1="797.0" x2="550.5" y2="810.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="557.5" y1="797.0" x2="557.5" y2="810.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="557.5" y1="797.0" x2="564.5" y2="810.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="557.5" cy="789.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="572.0" y="736.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">is issued by</text>
+<path d="M480.0,488.8 L422.0,488.8 L422.0,1000.0 L417.5,1000.0 L417.5,1060.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="473.0" y1="494.8" x2="473.0" y2="482.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="468.0" y1="494.8" x2="468.0" y2="482.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1047.0" x2="410.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1047.0" x2="417.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1047.0" x2="424.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="417.5" cy="1039.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="428.0" y="748.4" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">yields</text>
+<path d="M480.0,505.1 L400.0,505.1 L400.0,984.0 L124.5,984.0 L124.5,1060.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="473.0" y1="511.1" x2="473.0" y2="499.1" stroke="#16263a" stroke-width="1.4"/>
+<line x1="468.0" y1="511.1" x2="468.0" y2="499.1" stroke="#16263a" stroke-width="1.4"/>
+<line x1="124.5" y1="1047.0" x2="117.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="124.5" y1="1047.0" x2="124.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="124.5" y1="1047.0" x2="131.5" y2="1060.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="124.5" cy="1039.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="262.2" y="979.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">serializes</text>
+<path d="M557.5,906.0 L557.5,983.0 L557.5,1060.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="563.5" y1="913.0" x2="551.5" y2="913.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="563.5" y1="918.0" x2="551.5" y2="918.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="551.5" y1="1053.0" x2="563.5" y2="1053.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="551.5" y1="1048.0" x2="563.5" y2="1048.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="563.5" y="948.5" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="start" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">posts</text>
+<path d="M505.0,1108.0 L532.5,1108.0 L532.5,1118.0 L560.0,1118.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="512.0" y1="1102.0" x2="512.0" y2="1114.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="517.0" y1="1102.0" x2="517.0" y2="1114.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="553.0" y1="1124.0" x2="553.0" y2="1112.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="548.0" y1="1124.0" x2="548.0" y2="1112.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="518.8" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">posts</text>
+<path d="M960.0,1098.0 L868.5,1098.0 L868.5,1094.8 L777.0,1094.8" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="953.0" y1="1104.0" x2="953.0" y2="1092.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="948.0" y1="1104.0" x2="948.0" y2="1092.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="790.0" y1="1094.8" x2="777.0" y2="1087.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="790.0" y1="1094.8" x2="777.0" y2="1094.8" stroke="#16263a" stroke-width="1.4"/>
+<line x1="790.0" y1="1094.8" x2="777.0" y2="1101.8" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="798.0" cy="1094.8" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="914.2" y="1093.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">holds</text>
+<path d="M1034.0,1060.0 L1034.0,867.6 L635.0,867.6" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="1028.0" y1="1053.0" x2="1040.0" y2="1053.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1028.0" y1="1048.0" x2="1040.0" y2="1048.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="648.0" y1="867.6" x2="635.0" y2="860.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="648.0" y1="867.6" x2="635.0" y2="867.6" stroke="#16263a" stroke-width="1.4"/>
+<line x1="648.0" y1="867.6" x2="635.0" y2="874.6" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="656.0" cy="867.6" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="834.5" y="862.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">supplies</text>
+<path d="M1034.0,1136.0 L1034.0,1300.0 L417.5,1300.0 L417.5,1156.0" fill="none" stroke="#16263a" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="1040.0" y1="1143.0" x2="1028.0" y2="1143.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1040.0" y1="1148.0" x2="1028.0" y2="1148.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1169.0" x2="424.5" y2="1156.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1169.0" x2="417.5" y2="1156.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="417.5" y1="1169.0" x2="410.5" y2="1156.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="417.5" cy="1177.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="725.8" y="1295.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">receives</text>
+<rect x="60" y="110" width="155" height="96" rx="3" fill="#ffffff" stroke="#5b4b95" stroke-width="1.2"/>
+<path d="M60,138 V113 a3,3 0 0 1 3,-3 H212 a3,3 0 0 1 3,3 V138 Z" fill="#5b4b95"/>
+<text x="68.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">SalesOrderLine</text>
+<text x="68.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order no + line no</text>
+<text x="90.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item, quantity</text>
+<text x="90.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">confirmed order date</text>
+<rect x="60" y="290" width="179" height="96" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,318 V293 a3,3 0 0 1 3,-3 H236 a3,3 0 0 1 3,3 V318 Z" fill="#2f5d8a"/>
+<text x="68.0" y="309.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">ProductionPlan</text>
+<text x="68.0" y="332.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="333.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">plan no</text>
+<text x="90.0" y="353.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">period start / end</text>
+<text x="90.0" y="373.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">status, planner, approver</text>
+<rect x="60" y="470" width="196" height="116" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,498 V473 a3,3 0 0 1 3,-3 H253 a3,3 0 0 1 3,3 V498 Z" fill="#2f5d8a"/>
+<text x="68.0" y="489.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">PlanLine</text>
+<text x="68.0" y="512.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="513.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">plan no + line no</text>
+<text x="90.0" y="533.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item, planned quantity</text>
+<text x="90.0" y="553.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">planned start / finish</text>
+<text x="90.0" y="573.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">pegged sales line (optional)</text>
+<rect x="60" y="690" width="165" height="96" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,718 V693 a3,3 0 0 1 3,-3 H222 a3,3 0 0 1 3,3 V718 Z" fill="#2f5d8a"/>
+<text x="68.0" y="709.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">MaterialRequirement</text>
+<text x="68.0" y="732.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="733.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">plan line + component</text>
+<text x="90.0" y="753.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">gross requirement</text>
+<text x="90.0" y="773.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">needed by date</text>
+<rect x="60" y="850" width="138" height="76" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,878 V853 a3,3 0 0 1 3,-3 H195 a3,3 0 0 1 3,3 V878 Z" fill="#2f5d8a"/>
+<text x="68.0" y="869.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">PlanStockSnapshot</text>
+<text x="68.0" y="892.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="893.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">plan + item</text>
+<text x="90.0" y="913.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">on-hand quantity</text>
+<rect x="480" y="110" width="199" height="96" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,138 V113 a3,3 0 0 1 3,-3 H676 a3,3 0 0 1 3,3 V138 Z" fill="#8b3a2e"/>
+<text x="488.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">OrderOperation</text>
+<text x="488.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="510.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order + routing step</text>
+<text x="510.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">planned setup / run minutes</text>
+<text x="510.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">status, operator</text>
+<rect x="480" y="380" width="207" height="136" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,408 V383 a3,3 0 0 1 3,-3 H684 a3,3 0 0 1 3,3 V408 Z" fill="#8b3a2e"/>
+<text x="488.0" y="399.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">ProductionOrder</text>
+<text x="488.0" y="422.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="510.0" y="423.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order no</text>
+<text x="510.0" y="443.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item, planned quantity, status</text>
+<text x="510.0" y="463.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">planned / actual dates</text>
+<text x="510.0" y="483.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">BOM + routing revision</text>
+<text x="510.0" y="503.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">responsible employee</text>
+<rect x="480" y="630" width="172" height="76" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,658 V633 a3,3 0 0 1 3,-3 H649 a3,3 0 0 1 3,3 V658 Z" fill="#8b3a2e"/>
+<text x="488.0" y="649.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">OrderComponent</text>
+<text x="488.0" y="672.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="510.0" y="673.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order + component item</text>
+<text x="510.0" y="693.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">required quantity</text>
+<rect x="480" y="810" width="155" height="96" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,838 V813 a3,3 0 0 1 3,-3 H632 a3,3 0 0 1 3,3 V838 Z" fill="#8b3a2e"/>
+<text x="488.0" y="829.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">MaterialIssue</text>
+<text x="488.0" y="852.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="510.0" y="853.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">issue id</text>
+<text x="510.0" y="873.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">quantity, location</text>
+<text x="510.0" y="893.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">issued by, issued at</text>
+<rect x="900" y="110" width="162" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,138 V113 a3,3 0 0 1 3,-3 H1059 a3,3 0 0 1 3,3 V138 Z" fill="#8a5a12"/>
+<text x="908.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">RoutingStep</text>
+<text x="908.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="930.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing + operation no</text>
+<text x="930.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">operation name</text>
+<text x="930.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">setup / run minutes</text>
+<rect x="1210" y="110" width="156" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M1210,138 V113 a3,3 0 0 1 3,-3 H1363 a3,3 0 0 1 3,3 V138 Z" fill="#8a5a12"/>
+<text x="1218.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">WorkCenter</text>
+<text x="1218.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="1240.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">work center code</text>
+<text x="1240.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">department</text>
+<text x="1240.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">capacity, hourly rate</text>
+<rect x="900" y="300" width="125" height="76" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,328 V303 a3,3 0 0 1 3,-3 H1022 a3,3 0 0 1 3,3 V328 Z" fill="#8a5a12"/>
+<text x="908.0" y="319.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">Routing</text>
+<text x="908.0" y="342.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="930.0" y="343.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item + revision</text>
+<text x="930.0" y="363.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">status</text>
+<rect x="900" y="450" width="159" height="116" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,478 V453 a3,3 0 0 1 3,-3 H1056 a3,3 0 0 1 3,3 V478 Z" fill="#8a5a12"/>
+<text x="908.0" y="469.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">BillOfMaterials</text>
+<text x="908.0" y="492.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="930.0" y="493.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item + revision</text>
+<text x="930.0" y="513.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">status, base quantity</text>
+<text x="930.0" y="533.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">effective from / to</text>
+<text x="930.0" y="553.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">approver</text>
+<rect x="900" y="660" width="172" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,688 V663 a3,3 0 0 1 3,-3 H1069 a3,3 0 0 1 3,3 V688 Z" fill="#8a5a12"/>
+<text x="908.0" y="679.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">BOMLine</text>
+<text x="908.0" y="702.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="930.0" y="703.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">BOM + component item</text>
+<text x="930.0" y="723.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">quantity per base</text>
+<text x="930.0" y="743.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">scrap %</text>
+<rect x="60" y="1060" width="129" height="76" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M60,1088 V1063 a3,3 0 0 1 3,-3 H186 a3,3 0 0 1 3,3 V1088 Z" fill="#8b3a2e"/>
+<text x="68.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">ItemUnit</text>
+<text x="68.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="90.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item + serial no</text>
+<text x="90.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">status</text>
+<rect x="330" y="1060" width="175" height="96" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M330,1088 V1063 a3,3 0 0 1 3,-3 H502 a3,3 0 0 1 3,3 V1088 Z" fill="#8b3a2e"/>
+<text x="338.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">ProductionReceipt</text>
+<text x="338.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="360.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">receipt id</text>
+<text x="360.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">quantity, location</text>
+<text x="360.0" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">received / inspected by</text>
+<rect x="560" y="1060" width="217" height="116" rx="3" fill="#ffffff" stroke="#1c6b5c" stroke-width="1.2"/>
+<path d="M560,1088 V1063 a3,3 0 0 1 3,-3 H774 a3,3 0 0 1 3,3 V1088 Z" fill="#1c6b5c"/>
+<text x="568.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">StockMovement</text>
+<text x="568.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="590.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">movement no</text>
+<text x="590.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">type: RECEIPT, SALE_ISSUE,</text>
+<text x="590.0" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">PROD_ISSUE, PROD_RECEIPT</text>
+<text x="590.0" y="1163.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item, location, date, quantity</text>
+<rect x="960" y="1060" width="148" height="76" rx="3" fill="#ffffff" stroke="#1c6b5c" stroke-width="1.2"/>
+<path d="M960,1088 V1063 a3,3 0 0 1 3,-3 H1105 a3,3 0 0 1 3,3 V1088 Z" fill="#1c6b5c"/>
+<text x="968.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">StockLocation</text>
+<text x="968.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">ID</text>
+<text x="990.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location code</text>
+<text x="990.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">store or warehouse</text>
+<text x="1150.0" y="1075.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start" font-weight="bold">Notation (crow&#x27;s foot)</text>
+<line x1="1150" y1="1099" x2="1196" y2="1099" stroke="#16263a" stroke-width="1.2"/>
+<line x1="1189.0" y1="1105.0" x2="1189.0" y2="1093.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1184.0" y1="1105.0" x2="1184.0" y2="1093.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="1208.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">1  exactly one</text>
+<line x1="1150" y1="1121" x2="1196" y2="1121" stroke="#16263a" stroke-width="1.2"/>
+<line x1="1189.0" y1="1127.0" x2="1189.0" y2="1115.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="1179.0" cy="1121.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="1208.0" y="1125.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">0..1  zero or one</text>
+<line x1="1150" y1="1143" x2="1196" y2="1143" stroke="#16263a" stroke-width="1.2"/>
+<line x1="1183.0" y1="1143.0" x2="1196.0" y2="1150.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1183.0" y1="1143.0" x2="1196.0" y2="1143.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1183.0" y1="1143.0" x2="1196.0" y2="1136.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1179.0" y1="1149.0" x2="1179.0" y2="1137.0" stroke="#16263a" stroke-width="1.4"/>
+<text x="1208.0" y="1147.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">1..*  one or more</text>
+<line x1="1150" y1="1165" x2="1196" y2="1165" stroke="#16263a" stroke-width="1.2"/>
+<line x1="1183.0" y1="1165.0" x2="1196.0" y2="1172.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1183.0" y1="1165.0" x2="1196.0" y2="1165.0" stroke="#16263a" stroke-width="1.4"/>
+<line x1="1183.0" y1="1165.0" x2="1196.0" y2="1158.0" stroke="#16263a" stroke-width="1.4"/>
+<circle cx="1175.0" cy="1165.0" r="4" fill="#ffffff" stroke="#16263a" stroke-width="1.4"/>
+<text x="1208.0" y="1169.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">0..*  zero or more</text>
+<text x="1150.0" y="1195.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">ID = identifier of the entity.</text>
+<text x="1150.0" y="1211.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">Every event also records the employee</text>
+<text x="1150.0" y="1227.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">who performed it (shared Employee).</text>
+</svg>

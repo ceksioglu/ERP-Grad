@@ -1,6 +1,6 @@
 # Retail ERP Order to Cash Logical Model
 
-Task 2 draft for team review. The model follows a retail sale from the customer order through stock issue, invoicing, and payment. It uses shared customer, item, employee, and inventory records across the ERP cycles. P2M is a potential extension.
+Task 2 draft for team review. The model follows a retail sale from the customer order through stock issue, invoicing, and payment. It uses shared customer, item, employee, and inventory records across the ERP cycles. The Plan to Manufacture (P2M) module builds on the same records and stock ledger; see `p2m-logical-model.md`.
 
 ## Relations and Keys
 
@@ -48,16 +48,16 @@ The demo creates an individual customer who orders two units at 2,500 TRY each. 
 | Product and location | Keep one `inventory.stock_location` with a unique `location_code` and a `STORE` or `WAREHOUSE` type. Standardize item categories, base units, and purchasable and sellable flags across cycles. Propose category and unit lookup tables as a shared migration. | Keep item and location IDs unchanged through ordering, receipt, and sales issue. Continue checking that sales items are active and sellable. |
 | Employee and department | H2R owns employee identity and dated position and department assignments. P2P and O2C retain employee FKs for each action. Use the transaction date for historical assignment lookup. | Keep `created_by`, `recorded_by`, and `issued_by` on the existing sales objects. Join H2R assignments for departmental reporting once the shared H2R model is available. |
 | P2P receipt and sales issue | P2P supplies the approved purchase order and purchase-order line. Add `inventory.goods_receipt_line.purchase_order_line_id` once the P2P table is agreed. Enforce matching item and supplier, receipt timing, and cumulative quantity against the approved order. | Use the current receipt-line trigger as the single path to inbound stock. Sales issues continue to reference `sales.sales_order_line` in the same `inventory.inventory_movement` ledger. |
-| Movement integrity | Use positive quantities in the item base unit. Movement type sets direction. One receipt line posts one `RECEIPT`. A `SALE_ISSUE` references the matching sales order line. Use the effective date for the daily nonnegative stock rule and derive balances from movements. | The prototype enforces one receipt posting per line, rejects negative daily stock, and exposes `inventory.stock_balance` for reads. |
+| Movement integrity | Use positive quantities in the item base unit. Movement type sets direction through `inventory.signed_quantity`: `RECEIPT` and `PROD_RECEIPT` add stock, `SALE_ISSUE` and `PROD_ISSUE` remove it. One receipt line posts one `RECEIPT`. A `SALE_ISSUE` references the matching sales order line. Use the effective date for the daily nonnegative stock rule and derive balances from movements. | The prototype enforces one receipt posting per line, rejects negative daily stock, and exposes `inventory.stock_balance` for reads. |
 | Dates and amounts | Use `DATE` for business dates and `NUMERIC(12,3)` for quantities. Use `NUMERIC(12,2)` for unit prices and `NUMERIC(22,2)` for document amounts and payments. Persist the three-letter currency code on each order and carry it into related invoices and payments. | Retain the current numeric types, order currency, and positive payment rule. P2P and O2C each balance their own invoices. |
 
-Create shared masters first, then module tables, then cross-module keys and triggers that require both source and target tables. Apply seed data and test scripts last. Activity Set 1 runs in its own database. The P2M extension has a separate installation path until the team agrees on a master-data mapping.
+Create shared masters first, then module tables, then cross-module keys and triggers that require both source and target tables. Apply seed data and test scripts last. Activity Set 1 runs in its own database. P2M installs into the same database after O2C and posts production issues and receipts to the shared ledger.
 
 For acceptance, H2R supplies distinct sales, warehouse, and finance employees. P2P orders and receives 10 units of one item at one location. The receipt posts exactly one movement for the line. O2C sells 2 units from that location and leaves 8 in stock, issues a 5,000 TRY invoice, and closes it with payments of 2,000 TRY and 3,000 TRY. Verify that a mismatched receipt item, repeat posting, premature stock issue, and an unknown employee are rejected. The current prototype verifies the receipt-to-cash segment. The purchase-order FK and dated H2R assignments are integration dependencies.
 
 ## PostgreSQL Prototype
 
-Use a fresh test database. Run `db_init.sql`, then `o2c-database.sql`, then `o2c-demo.sql`. The first file provides the current `public.customer`, `public.employee`, `public.supplier`, and `public.item` tables. The O2C prototype adds the `sales` and `inventory` schemas. The demo verifies the full flow and rolls back its records. Run `o2c-business-cases.sql` once to preserve the example set.
+Use a fresh test database. Run `db_init.sql`, then `o2c-database.sql`, then `o2c-demo.sql`. To include manufacturing, run `p2m-database.sql` after `o2c-database.sql`; the O2C demo and business cases pass with or without it. The first file provides the current `public.customer`, `public.employee`, `public.supplier`, and `public.item` tables. The O2C prototype adds the `sales` and `inventory` schemas. The demo verifies the full flow and rolls back its records. Run `o2c-business-cases.sql` once to preserve the example set.
 
 | Physical object | Purpose and constraints |
 | --- | --- |
@@ -65,9 +65,9 @@ Use a fresh test database. Run `db_init.sql`, then `o2c-database.sql`, then `o2c
 | `sales.sales_order_line` | Stores the sellable item, quantity, and agreed price. Lines become fixed once the order is confirmed. |
 | `inventory.stock_location` | Identifies a store or warehouse by its unique location code. |
 | `inventory.goods_receipt` and `inventory.goods_receipt_line` | Capture the supplier, location, business date, receiving employee, and quantities. Each line posts one inbound movement. |
-| `inventory.inventory_movement` | Records a stock receipt or a sales issue. Sales issues reference the matching order line and item. |
+| `inventory.inventory_movement` | Records a stock receipt or a sales issue. Sales issues reference the matching order line and item. When P2M is installed it also records production issues and receipts, each linked to its source document. |
 | `inventory.stock_key` | Serializes postings for the same item at the same location. |
-| `inventory.stock_balance` | Read-only view of receipts less issues per location and item. Issues are rejected if they would make any date's ending stock negative. |
+| `inventory.stock_balance` | Read-only view of inbound less outbound movements per location and item, signed by `inventory.signed_quantity`. Any outbound movement is rejected if it would make any date's ending stock negative. |
 | `sales.customer_invoice` | Stores one invoice per fully issued order. The total is the sum of the rounded line amounts. |
 | `sales.customer_payment` | Records full or partial payments in the order currency. The prototype rejects payments over the open balance. |
 | `sales.customer_invoice_balance` | Shows the billed amount, total paid, and balance due. |
@@ -90,9 +90,9 @@ Run `o2c-business-cases.sql` once after the prototype in a dedicated test databa
 
 The rejected cases cover direct balance edits, receipts without a source line, duplicate receipts, stock issues before the corresponding receipt, stock issues that make a later balance negative, order confirmation and immutability, invalid line values and products, invoice timing and duplication, payment dates and amounts, and changes to posted records. An overpayment of 0.01 above the remaining balance is rejected.
 
-## Separate P2M Review Patch
+## P2M Integration
 
-`p2m-integrity-guards.sql` is applied after Can's `p2m-database.sql` on a separate database. It requires at least one line for approved, in-production, and completed sales orders and prevents removal of the last line. The allowed total material issue is the planned component quantity times `1 + issue_tolerance_percent / 100`. The prototype defaults to 0% tolerance. The team can agree on when to authorize a nonzero value.
+`p2m-database.sql` installs after this prototype in the same database. It uses `public.*` masters, plans against `sales.sales_order_line` (same item, confirmed order), and adds the `PROD_ISSUE` and `PROD_RECEIPT` movement types with their source columns to `inventory.inventory_movement`. The integrity rules proposed earlier as `p2m-integrity-guards.sql` are built into `p2m-database.sql`: issues are capped at the required component quantity and receipts at the planned quantity. `p2m-business-cases.sql` checks the P2M rules and shows a manufactured table being shipped, invoiced and paid through O2C. See `p2m-logical-model.md` and `p2m-data-dictionary.md`.
 
 ## Individual O2C Review
 
