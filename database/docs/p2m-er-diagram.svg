@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1340" viewBox="0 0 1460 1340">
+<rect x="0" y="0" width="1460" height="1340" fill="#ffffff"/>
+<text x="730.0" y="44.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="26" fill="#16263a" text-anchor="middle">Furniture ERP | Plan to Manufacture (physical model)</text>
+<rect x="42" y="250" width="240" height="694" rx="6" fill="#e9f0f8" stroke="#e9f0f8"/>
+<text x="162.0" y="269.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#2f5d8a" text-anchor="middle">Planning</text>
+<rect x="42" y="70" width="158" height="154" rx="6" fill="#f0ecfa" stroke="#f0ecfa"/>
+<text x="121.0" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#5b4b95" text-anchor="middle">Order to cash (O2C)</text>
+<rect x="462" y="70" width="297" height="874" rx="6" fill="#fbeeec" stroke="#fbeeec"/>
+<text x="610.5" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8b3a2e" text-anchor="middle">Production</text>
+<rect x="882" y="70" width="537" height="704" rx="6" fill="#fbf3e4" stroke="#fbf3e4"/>
+<text x="1150.5" y="89.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8a5a12" text-anchor="middle">Engineering</text>
+<rect x="42" y="1020" width="480" height="174" rx="6" fill="#fbeeec" stroke="#fbeeec"/>
+<text x="282.0" y="1039.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#8b3a2e" text-anchor="middle">Production output</text>
+<rect x="542" y="1020" width="561" height="254" rx="6" fill="#e7f6f0" stroke="#e7f6f0"/>
+<text x="822.5" y="1039.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="15" fill="#1c6b5c" text-anchor="middle">Shared inventory ledger</text>
+<path d="M182.0,158.0 L320.0,158.0 L320.0,487.4 L264.0,487.4" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="264.0,487.4 273.0,483.4 273.0,491.4" fill="#546b81"/>
+<text x="196.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..1</text>
+<text x="278.0" y="482.4" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M148.5,406.0 L148.5,438.0 L162.0,438.0 L162.0,470.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="162.0,470.0 158.0,461.0 166.0,461.0" fill="#546b81"/>
+<text x="161.5" y="425.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="175.0" y="457.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1..*</text>
+<path d="M60.0,348.0 L36.0,348.0 L36.0,888.0 L60.0,888.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="60.0,888.0 51.0,892.0 51.0,884.0" fill="#546b81"/>
+<text x="46.0" y="343.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="46.0" y="883.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M162.0,586.0 L162.0,638.0 L155.0,638.0 L155.0,690.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="155.0,690.0 151.0,681.0 159.0,681.0" fill="#546b81"/>
+<text x="175.0" y="605.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="168.0" y="677.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M264.0,516.4 L452.0,516.4 L452.0,432.8 L480.0,432.8" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="480.0,432.8 471.0,436.8 471.0,428.8" fill="#546b81"/>
+<text x="278.0" y="511.4" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="466.0" y="427.8" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M961.0,300.0 L961.0,253.0 L979.5,253.0 L979.5,206.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="979.5,206.0 983.5,215.0 975.5,215.0" fill="#546b81"/>
+<text x="974.0" y="287.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="992.5" y="225.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1..*</text>
+<path d="M1210.0,158.0 L1134.5,158.0 L1059.0,158.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="1059.0,158.0 1068.0,154.0 1068.0,162.0" fill="#546b81"/>
+<text x="1196.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="1073.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M988.5,546.0 L988.5,603.0 L995.0,603.0 L995.0,660.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="995.0,660.0 991.0,651.0 999.0,651.0" fill="#546b81"/>
+<text x="1001.5" y="565.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="1008.0" y="647.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1..*</text>
+<path d="M900.0,158.0 L860.0,158.0 L860.0,179.6 L699.0,179.6" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="699.0,179.6 708.0,175.6 708.0,183.6" fill="#546b81"/>
+<text x="886.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="713.0" y="174.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M900.0,338.0 L870.0,338.0 L870.0,424.0 L729.0,424.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="729.0,424.0 738.0,420.0 738.0,428.0" fill="#546b81"/>
+<text x="886.0" y="333.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="743.0" y="419.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M900.0,498.0 L870.0,498.0 L870.0,512.0 L729.0,512.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="729.0,512.0 738.0,508.0 738.0,516.0" fill="#546b81"/>
+<text x="886.0" y="493.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="743.0" y="507.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M900.0,708.0 L860.0,708.0 L860.0,699.6 L703.0,699.6" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="703.0,699.6 712.0,695.6 712.0,703.6" fill="#546b81"/>
+<text x="886.0" y="703.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="717.0" y="694.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M604.5,380.0 L604.5,303.0 L589.5,303.0 L589.5,226.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="589.5,226.0 593.5,235.0 585.5,235.0" fill="#546b81"/>
+<text x="617.5" y="367.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="602.5" y="245.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M604.5,556.0 L604.5,593.0 L591.5,593.0 L591.5,630.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="591.5,630.0 587.5,621.0 595.5,621.0" fill="#546b81"/>
+<text x="617.5" y="575.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="604.5" y="617.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M591.5,746.0 L591.5,778.0 L610.5,778.0 L610.5,810.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="610.5,810.0 606.5,801.0 614.5,801.0" fill="#546b81"/>
+<text x="604.5" y="765.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="623.5" y="797.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M480.0,520.8 L422.0,520.8 L422.0,1000.0 L417.0,1000.0 L417.0,1060.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="417.0,1060.0 413.0,1051.0 421.0,1051.0" fill="#546b81"/>
+<text x="466.0" y="515.8" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="430.0" y="1047.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M480.0,541.9 L400.0,541.9 L400.0,984.0 L162.0,984.0 L162.0,1060.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="162.0,1060.0 158.0,1051.0 166.0,1051.0" fill="#546b81"/>
+<text x="466.0" y="536.9" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="175.0" y="1047.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M610.5,926.0 L610.5,993.0 L610.5,1060.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="610.5,1060.0 606.5,1051.0 614.5,1051.0" fill="#546b81"/>
+<text x="623.5" y="945.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="623.5" y="1047.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<path d="M504.0,1118.0 L532.0,1118.0 L532.0,1158.0 L560.0,1158.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="560.0,1158.0 551.0,1162.0 551.0,1154.0" fill="#546b81"/>
+<text x="518.0" y="1113.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="546.0" y="1153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<path d="M960.0,1098.0 L875.5,1098.0 L875.5,1118.8 L791.0,1118.8" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="791.0,1118.8 800.0,1114.8 800.0,1122.8" fill="#546b81"/>
+<text x="946.0" y="1093.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="805.0" y="1113.8" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M1022.5,1060.0 L1022.5,879.6 L741.0,879.6" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="741.0,879.6 750.0,875.6 750.0,883.6" fill="#546b81"/>
+<text x="1035.5" y="1047.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="755.0" y="874.6" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<path d="M1022.5,1136.0 L1022.5,1300.0 L417.0,1300.0 L417.0,1176.0" fill="none" stroke="#546b81" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="417.0,1176.0 421.0,1185.0 413.0,1185.0" fill="#546b81"/>
+<text x="1035.5" y="1155.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<text x="430.0" y="1195.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#30485f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">0..*</text>
+<rect x="60" y="110" width="122" height="96" rx="3" fill="#ffffff" stroke="#5b4b95" stroke-width="1.2"/>
+<path d="M60,138 V113 a3,3 0 0 1 3,-3 H179 a3,3 0 0 1 3,3 V138 Z" fill="#5b4b95"/>
+<text x="68.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">sales_order_line</text>
+<text x="68.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order_line_id</text>
+<text x="68.0" y="172.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order_id</text>
+<text x="68.0" y="192.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="141.2" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<rect x="60" y="290" width="177" height="116" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,318 V293 a3,3 0 0 1 3,-3 H234 a3,3 0 0 1 3,3 V318 Z" fill="#2f5d8a"/>
+<text x="68.0" y="309.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_plan</text>
+<text x="68.0" y="332.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="333.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_id</text>
+<text x="68.0" y="352.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">UQ</text>
+<text x="94.0" y="353.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">plan_no</text>
+<text x="68.0" y="372.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="373.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">created_by</text>
+<text x="161.0" y="373.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<text x="68.0" y="392.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="393.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">approved_by</text>
+<text x="170.8" y="393.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="60" y="470" width="204" height="116" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,498 V473 a3,3 0 0 1 3,-3 H261 a3,3 0 0 1 3,3 V498 Z" fill="#2f5d8a"/>
+<text x="68.0" y="489.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_plan_line</text>
+<text x="68.0" y="512.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="513.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_line_id</text>
+<text x="68.0" y="532.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="533.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_id</text>
+<text x="68.0" y="552.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="553.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="141.2" y="553.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<text x="68.0" y="572.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="573.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">sales_order_line_id</text>
+<text x="209.0" y="573.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<rect x="60" y="690" width="190" height="96" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,718 V693 a3,3 0 0 1 3,-3 H247 a3,3 0 0 1 3,3 V718 Z" fill="#2f5d8a"/>
+<text x="68.0" y="709.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">material_requirement</text>
+<text x="68.0" y="732.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="733.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">material_requirement_id</text>
+<text x="68.0" y="752.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="753.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_line_id</text>
+<text x="68.0" y="772.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="773.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">component_item_id</text>
+<text x="208.7" y="773.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<rect x="60" y="850" width="171" height="76" rx="3" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.2"/>
+<path d="M60,878 V853 a3,3 0 0 1 3,-3 H228 a3,3 0 0 1 3,3 V878 Z" fill="#2f5d8a"/>
+<text x="68.0" y="869.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">plan_stock_snapshot</text>
+<text x="68.0" y="892.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="893.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_id</text>
+<text x="205.4" y="893.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">FK</text>
+<text x="68.0" y="912.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="913.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="141.2" y="913.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">FK → item</text>
+<rect x="480" y="110" width="219" height="116" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,138 V113 a3,3 0 0 1 3,-3 H696 a3,3 0 0 1 3,3 V138 Z" fill="#8b3a2e"/>
+<text x="488.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_order_operation</text>
+<text x="488.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="514.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_operation_id</text>
+<text x="488.0" y="172.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="629.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ routing_id</text>
+<text x="488.0" y="192.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing_operation_id</text>
+<text x="632.6" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ routing_id</text>
+<text x="488.0" y="212.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="213.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">operator_id</text>
+<text x="581.4" y="213.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="480" y="380" width="249" height="176" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,408 V383 a3,3 0 0 1 3,-3 H726 a3,3 0 0 1 3,3 V408 Z" fill="#8b3a2e"/>
+<text x="488.0" y="399.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_order</text>
+<text x="488.0" y="422.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="514.0" y="423.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="488.0" y="442.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">UQ</text>
+<text x="514.0" y="443.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order_no</text>
+<text x="488.0" y="462.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="463.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_plan_line_id</text>
+<text x="652.7" y="463.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<text x="488.0" y="482.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="483.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">bom_id</text>
+<text x="560.7" y="483.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<text x="488.0" y="502.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="503.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing_id</text>
+<text x="574.7" y="503.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<text x="488.0" y="522.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="523.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="561.2" y="523.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<text x="488.0" y="542.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="543.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">responsible_employee_id</text>
+<text x="662.4" y="543.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="480" y="630" width="223" height="116" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,658 V633 a3,3 0 0 1 3,-3 H700 a3,3 0 0 1 3,3 V658 Z" fill="#8b3a2e"/>
+<text x="488.0" y="649.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_order_component</text>
+<text x="488.0" y="672.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="514.0" y="673.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_component_id</text>
+<text x="488.0" y="692.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="693.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="629.0" y="693.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ bom_id</text>
+<text x="488.0" y="712.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="713.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">bom_id</text>
+<text x="560.7" y="713.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ component_item_id</text>
+<text x="488.0" y="732.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="733.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">component_item_id</text>
+<rect x="480" y="810" width="261" height="116" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M480,838 V813 a3,3 0 0 1 3,-3 H738 a3,3 0 0 1 3,3 V838 Z" fill="#8b3a2e"/>
+<text x="488.0" y="829.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">material_issue</text>
+<text x="488.0" y="852.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="514.0" y="853.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">material_issue_id</text>
+<text x="488.0" y="872.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="873.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="629.0" y="873.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ component_item_id</text>
+<text x="488.0" y="892.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="893.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location_id</text>
+<text x="488.0" y="912.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="514.0" y="913.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">issued_by</text>
+<text x="577.4" y="913.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="900" y="110" width="159" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,138 V113 a3,3 0 0 1 3,-3 H1056 a3,3 0 0 1 3,3 V138 Z" fill="#8a5a12"/>
+<text x="908.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">routing_operation</text>
+<text x="908.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="934.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing_operation_id</text>
+<text x="908.0" y="172.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing_id</text>
+<text x="908.0" y="192.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">work_center_id</text>
+<rect x="1210" y="110" width="191" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M1210,138 V113 a3,3 0 0 1 3,-3 H1398 a3,3 0 0 1 3,3 V138 Z" fill="#8a5a12"/>
+<text x="1218.0" y="129.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">work_center</text>
+<text x="1218.0" y="152.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="1244.0" y="153.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">work_center_id</text>
+<text x="1218.0" y="172.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">UQ</text>
+<text x="1244.0" y="173.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">work_center_code</text>
+<text x="1218.0" y="192.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="1244.0" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">department_id</text>
+<text x="1328.4" y="193.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ department</text>
+<rect x="900" y="300" width="122" height="76" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,328 V303 a3,3 0 0 1 3,-3 H1019 a3,3 0 0 1 3,3 V328 Z" fill="#8a5a12"/>
+<text x="908.0" y="319.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">routing</text>
+<text x="908.0" y="342.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="934.0" y="343.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">routing_id</text>
+<text x="908.0" y="362.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="363.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="981.2" y="363.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<rect x="900" y="450" width="177" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,478 V453 a3,3 0 0 1 3,-3 H1074 a3,3 0 0 1 3,3 V478 Z" fill="#8a5a12"/>
+<text x="908.0" y="469.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">bom</text>
+<text x="908.0" y="492.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="934.0" y="493.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">bom_id</text>
+<text x="908.0" y="512.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="513.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="981.2" y="513.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<text x="908.0" y="532.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="533.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">approved_by</text>
+<text x="1010.8" y="533.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="900" y="660" width="190" height="96" rx="3" fill="#ffffff" stroke="#8a5a12" stroke-width="1.2"/>
+<path d="M900,688 V663 a3,3 0 0 1 3,-3 H1087 a3,3 0 0 1 3,3 V688 Z" fill="#8a5a12"/>
+<text x="908.0" y="679.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">bom_line</text>
+<text x="908.0" y="702.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="934.0" y="703.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">bom_line_id</text>
+<text x="908.0" y="722.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="723.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">bom_id</text>
+<text x="908.0" y="742.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="934.0" y="743.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">component_item_id</text>
+<text x="1048.7" y="743.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<rect x="60" y="1060" width="204" height="96" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M60,1088 V1063 a3,3 0 0 1 3,-3 H261 a3,3 0 0 1 3,3 V1088 Z" fill="#8b3a2e"/>
+<text x="68.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">item_unit</text>
+<text x="68.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="94.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_unit_id</text>
+<text x="68.0" y="1122.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="94.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="209.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<text x="68.0" y="1142.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">UQ</text>
+<text x="94.0" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">serial_number</text>
+<rect x="330" y="1060" width="174" height="116" rx="3" fill="#ffffff" stroke="#8b3a2e" stroke-width="1.2"/>
+<path d="M330,1088 V1063 a3,3 0 0 1 3,-3 H501 a3,3 0 0 1 3,3 V1088 Z" fill="#8b3a2e"/>
+<text x="338.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">production_receipt</text>
+<text x="338.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="364.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_receipt_id</text>
+<text x="338.0" y="1122.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="364.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_order_id</text>
+<text x="338.0" y="1142.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="364.0" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location_id</text>
+<text x="338.0" y="1162.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="364.0" y="1163.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">received_by</text>
+<text x="437.7" y="1163.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="560" y="1060" width="231" height="196" rx="3" fill="#ffffff" stroke="#1c6b5c" stroke-width="1.2"/>
+<path d="M560,1088 V1063 a3,3 0 0 1 3,-3 H788 a3,3 0 0 1 3,3 V1088 Z" fill="#1c6b5c"/>
+<text x="568.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">inventory_movement</text>
+<text x="568.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="594.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">movement_id</text>
+<text x="568.0" y="1122.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location_id</text>
+<text x="568.0" y="1142.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">item_id</text>
+<text x="641.2" y="1143.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ item</text>
+<text x="568.0" y="1162.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1163.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">order_line_id</text>
+<text x="671.8" y="1163.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ sales_order_line</text>
+<text x="568.0" y="1182.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1183.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">receipt_line_id</text>
+<text x="682.1" y="1183.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ goods_receipt_line</text>
+<text x="568.0" y="1202.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1203.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">material_issue_id</text>
+<text x="699.0" y="1203.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">+ item_id</text>
+<text x="568.0" y="1222.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1223.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">production_receipt_id</text>
+<text x="568.0" y="1242.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">FK</text>
+<text x="594.0" y="1243.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">recorded_by</text>
+<text x="667.7" y="1243.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="10" fill="#536277" text-anchor="start" font-style="italic">→ employee</text>
+<rect x="960" y="1060" width="125" height="76" rx="3" fill="#ffffff" stroke="#1c6b5c" stroke-width="1.2"/>
+<path d="M960,1088 V1063 a3,3 0 0 1 3,-3 H1082 a3,3 0 0 1 3,3 V1088 Z" fill="#1c6b5c"/>
+<text x="968.0" y="1079.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">stock_location</text>
+<text x="968.0" y="1102.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">PK</text>
+<text x="994.0" y="1103.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location_id</text>
+<text x="968.0" y="1122.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="9" fill="#536277" text-anchor="start">UQ</text>
+<text x="994.0" y="1123.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start">location_code</text>
+<text x="1128.0" y="1080.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="12" fill="#16263a" text-anchor="start" font-weight="bold">Reading the diagram</text>
+<text x="1128.0" y="1100.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">Arrows point from the referenced (parent) table</text>
+<text x="1128.0" y="1116.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">to the referencing table.</text>
+<text x="1128.0" y="1132.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">“+ column”: composite FK that also matches that</text>
+<text x="1128.0" y="1148.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">column, so an order&#x27;s BOM, routing and plan line</text>
+<text x="1128.0" y="1164.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">are all for the order&#x27;s own item.</text>
+<text x="1128.0" y="1180.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">“→ table”: FK to a shared table (public.item,</text>
+<text x="1128.0" y="1196.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">public.employee, ...); those edges are not drawn.</text>
+<text x="1128.0" y="1212.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">Each material issue and production receipt posts</text>
+<text x="1128.0" y="1228.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">exactly one ledger movement.</text>
+<text x="1128.0" y="1244.0" font-family="Helvetica,Arial,'Liberation Sans',sans-serif" font-size="11" fill="#536277" text-anchor="start">O2C tables: see o2c-er-diagram.svg.</text>
+</svg>

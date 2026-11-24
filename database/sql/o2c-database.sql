@@ -58,7 +58,8 @@ CREATE TABLE inventory.goods_receipt_line (
 CREATE TABLE inventory.inventory_movement (
     movement_id   INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     movement_no   VARCHAR(32) NOT NULL UNIQUE,
-    movement_type VARCHAR(12) NOT NULL CHECK (movement_type IN ('RECEIPT', 'SALE_ISSUE')),
+    movement_type VARCHAR(12) NOT NULL
+                  CONSTRAINT inventory_movement_type_check CHECK (movement_type IN ('RECEIPT', 'SALE_ISSUE')),
     location_id   INTEGER NOT NULL REFERENCES inventory.stock_location (location_id),
     item_id       INTEGER NOT NULL REFERENCES public.item (item_id),
     order_line_id INTEGER,
@@ -67,6 +68,7 @@ CREATE TABLE inventory.inventory_movement (
     quantity      NUMERIC(12,3) NOT NULL CHECK (quantity > 0 AND quantity <> 'NaN'::numeric),
     recorded_by   INTEGER NOT NULL REFERENCES public.employee (employee_id),
     FOREIGN KEY (order_line_id, item_id) REFERENCES sales.sales_order_line (order_line_id, item_id),
+    CONSTRAINT inventory_movement_source_check
     CHECK ((movement_type = 'SALE_ISSUE' AND order_line_id IS NOT NULL AND receipt_line_id IS NULL)
         OR (movement_type = 'RECEIPT' AND receipt_line_id IS NOT NULL AND order_line_id IS NULL))
 );
@@ -163,6 +165,13 @@ BEGIN
 END;
 $$;
 
+-- Ledger direction: inbound movement types add stock, every other type removes it.
+-- PROD_RECEIPT and PROD_ISSUE are enabled and posted by the P2M module (p2m-database.sql).
+CREATE FUNCTION inventory.signed_quantity(movement_type TEXT, quantity NUMERIC) RETURNS NUMERIC
+LANGUAGE sql IMMUTABLE AS $$
+    SELECT CASE WHEN movement_type IN ('RECEIPT', 'PROD_RECEIPT') THEN quantity ELSE -quantity END;
+$$;
+
 CREATE FUNCTION inventory.apply_movement() RETURNS TRIGGER LANGUAGE plpgsql AS $$
 DECLARE
     target_order_id INTEGER;
@@ -179,7 +188,7 @@ BEGIN
         ) THEN
             RAISE EXCEPTION 'Stock receipt must match its goods receipt line' USING ERRCODE = '23514';
         END IF;
-    ELSE
+    ELSIF NEW.movement_type = 'SALE_ISSUE' THEN
         SELECT order_id INTO target_order_id FROM sales.sales_order_line WHERE order_line_id = NEW.order_line_id;
         PERFORM sales.lock_confirmed_order(target_order_id, NEW.moved_on);
         SELECT quantity INTO ordered_quantity FROM sales.sales_order_line WHERE order_line_id = NEW.order_line_id;
@@ -193,9 +202,9 @@ BEGIN
     INSERT INTO inventory.stock_key (location_id, item_id) VALUES (NEW.location_id, NEW.item_id)
     ON CONFLICT (location_id, item_id) DO UPDATE SET item_id = EXCLUDED.item_id;
 
-    IF NEW.movement_type = 'SALE_ISSUE' AND EXISTS (
+    IF inventory.signed_quantity(NEW.movement_type, NEW.quantity) < 0 AND EXISTS (
         SELECT 1 FROM (
-            SELECT SUM(SUM(CASE WHEN movement_type = 'RECEIPT' THEN quantity ELSE -quantity END))
+            SELECT SUM(SUM(inventory.signed_quantity(movement_type, quantity)))
                    OVER (ORDER BY moved_on ROWS UNBOUNDED PRECEDING) AS end_of_day_balance
             FROM inventory.inventory_movement
             WHERE location_id = NEW.location_id AND item_id = NEW.item_id
@@ -300,7 +309,7 @@ FOR EACH ROW EXECUTE FUNCTION sales.guard_posted_record();
 
 CREATE VIEW inventory.stock_balance AS
 SELECT location_id, item_id,
-       SUM(CASE WHEN movement_type = 'RECEIPT' THEN quantity ELSE -quantity END) AS quantity_on_hand
+       SUM(inventory.signed_quantity(movement_type, quantity)) AS quantity_on_hand
 FROM inventory.inventory_movement
 GROUP BY location_id, item_id;
 

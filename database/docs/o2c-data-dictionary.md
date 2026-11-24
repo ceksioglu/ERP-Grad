@@ -195,7 +195,7 @@ Append-only shared stock ledger.
 | --- | --- | --- | --- | --- |
 | `movement_id` | `integer` | Required, generated identity | PK 1 | Surrogate movement identifier |
 | `movement_no` | `character varying(32)` | Required | UQ 7 | Unique movement reference |
-| `movement_type` | `character varying(12)` | Required | CK 9, CK 10 | Receipt or sales issue |
+| `movement_type` | `character varying(12)` | Required | CK 9, CK 10 | Receipt or sales issue; P2M adds `PROD_RECEIPT` and `PROD_ISSUE` (see `p2m-data-dictionary.md`) |
 | `location_id` | `integer` | Required | FK 3 | Location affected by the movement |
 | `item_id` | `integer` | Required | FK 2, FK 4 | Stock item affected by the movement |
 | `order_line_id` | `integer` | Nullable | FK 4, CK 9 | Sales line for a sales issue |
@@ -308,7 +308,7 @@ Read-only aggregate of posted movements by location and item.
 | --- | --- | --- | --- | --- |
 | `location_id` | `integer` | Derived | — | Location in the movement ledger |
 | `item_id` | `integer` | Derived | — | Item in the movement ledger |
-| `quantity_on_hand` | `numeric` | Derived | — | Receipts less issues across posted movements |
+| `quantity_on_hand` | `numeric` | Derived | — | Inbound less outbound posted movements, signed by `inventory.signed_quantity` |
 
 ## `sales.customer_invoice_balance`
 
@@ -332,6 +332,7 @@ Read-only receivables view by invoice.
 - A sales issue references the matching item and confirmed order line. Cumulative issues cannot exceed the order quantity. Stock must remain nonnegative at the end of each business date, including dates affected by a backdated posting.
 - The invoice date must cover all issues for the order. Each order has at most one invoice. The total is calculated from rounded line amounts.
 - Payments use the order currency and may be partial. The payment date is on or after the invoice date and the total received cannot exceed the invoice total.
+- `inventory.signed_quantity(movement_type, quantity)` gives each movement its direction: `RECEIPT` and `PROD_RECEIPT` add stock, every other type removes it. The stock view and the negative-stock check both use it.
 - The two balance views are calculated from posted records. `inventory.stock_key` holds only the key used to serialize changes for the same item at the same location.
 
-The prototype uses `public.item` and `inventory.stock_location` for the shared identifiers. The team must agree on the final master schema and connect purchase-order lines to goods receipts before full P2P integration. The baseline department has no FK from `public.employee`.
+The prototype uses `public.item` and `inventory.stock_location` for the shared identifiers. The team must agree on the final master schema and connect purchase-order lines to goods receipts before full P2P integration. The baseline department has no FK from `public.employee`. When `p2m-database.sql` is installed, `inventory.inventory_movement` gains the `material_issue_id` and `production_receipt_id` columns and its two check constraints (`inventory_movement_type_check`, `inventory_movement_source_check`) are widened to the production movement types; `p2m-data-dictionary.md` lists the extended definitions.
